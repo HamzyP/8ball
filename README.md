@@ -2,6 +2,9 @@
 
 This project is a **JavaScript-based "Magic 8-Ball"** web application where users can ask questions and receive random answers, similar to the classic toy. Additionally, the app tracks a history of questions and answers and keeps a question counter to display the total questions asked during the session.
 
+## Live Demo
+[Click here to view the application!](https://hamzyp.github.io/8ball/)
+
 ## Features
 
 - **Magic 8-Ball Responses**: Users can type any question, and the app responds with a random answer, much like the original Magic 8-Ball.
@@ -34,6 +37,8 @@ This project is a **JavaScript-based "Magic 8-Ball"** web application where user
 - Add additional UI animations and transition effects.
 - Explore adding more customizable answers.
 - Introduce a light theme alongside the current dark theme, allowing users to toggle between light and dark modes for improved accessibility and customization.
+- Add a mobile layout so it looks good on mobile.
+- Fix sizing issue of the entry box.
 
 ## Credits
 
