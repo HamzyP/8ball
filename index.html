@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>8 ball App</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <div class="chat-container">
+    <header class="chat-header">
+      <h1>Magic 8-Ball</h1>
+    </header>
+    
+
+    <div class="response" id="response-container">
+    </div>
+    <br>
+    <div class="question-counter" id="question-counter"></div><br>
+
+
+    <button id="history-button">Show History</button>
+
+
+    <footer class="input-area">
+      <input type="text" placeholder="Type message here..." id="chat-input">
+      <button id="send-button">Send</button>
+    </footer>
+</div>
+    <!-- Modal for History -->
+<div id="history-modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>History</h2>
+        <div id="history-container"></div>
+    </div>
+</div>
+
+
+</body>
+</html>
+
+
